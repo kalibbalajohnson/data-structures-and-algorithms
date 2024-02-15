@@ -4,6 +4,7 @@ class learn {
     private int rear;// stores the index of the rear element in the queue
     private int[] array; //stores the elements of the queue
     private int size; // stores the maximum number of elements that the queue can hold
+
     
 //-------------------------constrctor-----------------------
 // initializes the front and rear variables to -1, which indicates an empty queue. 
