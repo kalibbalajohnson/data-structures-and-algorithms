@@ -7,6 +7,7 @@ public class learn5 {
         Stack<Integer> operandStack = new Stack<Integer>();
         Stack<Character> operatorStack = new Stack<Character>();
 
+     
         //iterates through the characters of the infix expression from left to right
         for (int i = 0; i < infixExpression.length(); i++) {
             char currentChar = infixExpression.charAt(i);
